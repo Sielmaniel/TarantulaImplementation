@@ -15,7 +15,7 @@ public class Main {
         int passCount = 0;
         File file = new File("src\\tarantulaStatements.txt");
         Scanner sc = new Scanner(file);
-
+        //Look at this, I added a comment that wont do anything
         while (sc.hasNextLine())
         {
             String parsedLine[] = sc.nextLine().split(" ");
